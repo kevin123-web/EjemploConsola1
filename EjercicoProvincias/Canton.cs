@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 
 namespace EjercicoClase2
 {
@@ -18,7 +17,7 @@ namespace EjercicoClase2
             int acumulador = 0;
             foreach (Parroquia actual in Parroquias)
             {
-                acumulador = acumulador + actual.Habitantes;
+                acumulador += actual.Habitantes;
             }
             return acumulador;
         }

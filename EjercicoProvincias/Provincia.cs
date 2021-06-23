@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 
 namespace EjercicoClase2
 {
@@ -16,12 +15,9 @@ namespace EjercicoClase2
             int acumulador = 0;
             foreach (Canton actual in Cantones)
             {
-                acumulador = acumulador + actual.ObtenerNumeroDeHabitantes();
+                acumulador += actual.ObtenerNumeroDeHabitantes();
             }
             return acumulador;
         }
-
     }
-
-
 }

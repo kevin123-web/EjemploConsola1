@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 
 namespace EjercicoClase2
 {
@@ -18,7 +17,7 @@ namespace EjercicoClase2
 
             foreach (Provincia actual in Provincias)
             {
-                acumulador = acumulador + actual.ObtenerNumeroDeHabitantes();
+                acumulador += actual.ObtenerNumeroDeHabitantes();
             }
             return acumulador;
         }
