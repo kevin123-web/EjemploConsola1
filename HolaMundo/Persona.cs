@@ -6,22 +6,22 @@ namespace MiPrimeraConsola1
     {
         public string Nombre { get; set; }
 
-        public int edad;
+        public int Edad { get; set; }
 
-        public float peso;
+        public float Peso { get; set; }
 
-        public string cedula;
+        public string Cedula { get; set; }
 
-        public int celular;
+        public int Celular { get; set; }
 
-        public string altura;
+        public string Altura { get; set; }
 
-        public int automoviles;
+        public int Automoviles { get; set; }
 
-        public bool hijos;
+        public bool Hijos { get; set; }
 
-        public int mascotas;
+        public int Mascotas { get; set; }
 
-        public int computadoras;
+        public int Computadoras { get; set; }
     }
 }

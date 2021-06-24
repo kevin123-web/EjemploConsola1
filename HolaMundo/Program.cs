@@ -46,28 +46,28 @@ namespace MiPrimeraConsola1
             var persona = new Persona
             {
                 Nombre = nombre,
-                edad = edad,
-                peso = peso,
-                cedula = cedula,
-                celular = celular1,
-                altura = altura,
-                automoviles = automoviles1,
-                hijos = hijos,
-                mascotas = mascotas1,
-                computadoras = computadoras1,
+                Edad = edad,
+                Peso = peso,
+                Cedula = cedula,
+                Celular = celular1,
+                Altura = altura,
+                Automoviles = automoviles1,
+                Hijos = hijos,
+                Mascotas = mascotas1,
+                Computadoras = computadoras1,
             };
 
             Console.WriteLine("Su información es la siguiente... ");
             Console.Write($"Nombre: {persona.Nombre} ");
-            Console.Write($"Su edad es: {persona.edad} ");
-            Console.Write($"Su Peso es: {persona.peso} ");
-            Console.Write($"Su cédula es: {persona.cedula} ");
-            Console.Write($"Su celular es: {persona.celular} ");
-            Console.Write($"Su altura es: {persona.altura} ");
-            Console.Write($"Su automoviles es: {persona.automoviles} ");
-            Console.Write($"Tienes hijos?: {persona.hijos} ");
-            Console.Write($"El numero de mascotas que tiene es: {persona.mascotas} " );
-            Console.Write($"Su numero de computadoras es: {persona.computadoras} ");
+            Console.Write($"Su edad es: {persona.Edad} ");
+            Console.Write($"Su Peso es: {persona.Peso} ");
+            Console.Write($"Su cédula es: {persona.Cedula} ");
+            Console.Write($"Su celular es: {persona.Celular} ");
+            Console.Write($"Su altura es: {persona.Altura} ");
+            Console.Write($"Su automoviles es: {persona.Automoviles} ");
+            Console.Write($"Tienes hijos?: {persona.Hijos} ");
+            Console.Write($"El numero de mascotas que tiene es: {persona.Mascotas} " );
+            Console.Write($"Su numero de computadoras es: {persona.Computadoras} ");
             Console.Write("Muchas Gracias por su atención vuelva pronto , \nPrecione cualquier tecla para terminar. ");
             Console.ReadKey();
         }
